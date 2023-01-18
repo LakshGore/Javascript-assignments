@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="format.css" />
+<script src="Q1.js"></script>
+
+</head>
+
+<body>
+    <h1 id="titleque">Question</h1>
+    <div id="question">
+        <h2>
+            Write a JavaScript program to 
+            convert temperatures to and from Celsius, Fahrenheit
+        </h2>
+        <h3 id="sample">
+            Sample Output : 
+        </h3>    
+        <h3>
+            60°C is 140 °F <br />
+            45°F is 7.222222222222222°C
+        </h3>
+    </div>
+    <hr />
+    <div>
+    <div id="answer">
+        <button id="titleans" onclick="Question11()">Answer</button>
+        <div id="divans">
+            <div class=""> <br>
+                <label for="num1" >Celsius:        &nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="num1" onkeyup="Celsius()"><br>
+                <h3>Fahrenheit:   <span id="fa"></span></h3><br>
+                
+                <label for="num2">Fahrenheit</label>
+                <input type="text" id="num2" onkeyup="Fahrenheit()"><br>
+                <!-- <button onclick="Celsius()">Celsius</button>
+                <button onclick="Fahrenheit()">Fahrenheit</button> -->
+                
+                <h3>Celsius:   <span id="cel"></span></h3>
+             </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

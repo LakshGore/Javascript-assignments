@@ -1,0 +1,53 @@
+#question{
+    word-wrap: break-word;
+    margin-left: 10%;
+}
+
+#titleque{
+    
+    border: solid 2px;
+    background-color: #d6d2d2;
+    text-align: center;  
+    width: 200px;
+    margin-left: 44%;  
+}
+#sample{
+    background-color: #85d0e693;
+    width: 550px;
+}
+#answer{
+
+    margin-left: 20%;
+}
+#divans{
+    color: rgb(15, 106, 109);
+    margin-left:20%;
+}
+#titleans{
+    margin-left: 30%;
+    border: solid 2px;
+    background-color: #d6d2d2;
+    width: 200px; 
+    font-size: 20px; 
+    font-style: italic;  
+    text-align: center;
+    
+}
+.forinline{
+    display: flex;
+    
+    margin: 0px;
+}
+span{
+    font-size: 20px;
+    color: red;
+}
+table{
+    border: solid 2px;
+}
+th,td {
+    border-style:solid;
+    border-width: 1px;
+    width: 130px;
+    text-align: center;
+}

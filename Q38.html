@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="format.css" />
+<script src="Q1.js"></script>
+
+</head>
+
+<body>
+    <h1 id="titleque">Question</h1>
+    <div id="question">
+        <h2>
+            Write a JavaScript program to check total marks of student
+            the student will get A+ grade if total marks are in range of 89..100
+            ,<br> if examination if "Final-Exam" <br>
+            student will get A+ grade total marks must be greater than or equal 90.
+            Return true if student get A+ grade or false otherwise
+            
+        </h2>
+        
+    </div>
+    <hr />
+    <div>
+    <div id="answer">
+        <button id="titleans" >Answer</button>
+        <div id="divans"> <b><br><br>
+            <label for="exam">Select Exam: </label>
+            <select name="" id="exam">
+                <option value="final" >final</option>
+                <option value="test1">test1</option>
+                <option value="test2">test2</option>
+            </select><br><br>
+            <label for="marks">subject 1: </label>
+            <input type="text" id="marks1"><br><br>
+
+            <!-- <label for="marks">subject 2: </label>
+            <input type="text" id="marks2"><br><br>
+
+            <label for="marks">subject 3: </label>
+            <input type="text" id="marks3"><br><br> -->
+
+            <button onclick="Question38()">Get Result</button>
+        </b>  
+        <br><br>
+        <p>Selected Exam : <span id="resexam"></span></p>
+        <p>Total Marks : <span id="total"></span></p>
+        <p>Grade : <span id="grade"></span></p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
